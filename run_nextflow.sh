@@ -13,4 +13,4 @@ nextflow indrop_single_cell.nf \
 --cutoff_reads_for_valid_cell "100" \
 --mate_split "single" \
 --determined_fastq "./*_{R1,R2,R3}_001.fastq.gz" \
---cellBarcodeFile "./gel_barcode1_list.txt"
+--cellBarcodeFile "./scripts/gel_barcode1_list.txt"
