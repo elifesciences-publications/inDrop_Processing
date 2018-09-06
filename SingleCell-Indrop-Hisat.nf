@@ -142,10 +142,6 @@ input:
 output:
  set val(name), file("${newName}.bam") into g_77_mapped_reads_g_56
  set val(name), file("${newName}.align_summary.txt") into g_77_outputFileTxt_g_78
- val run_RSeQC into g_77_run_RSeQC
- val run_IGV_TDF_Conversion into g_77_run_IGVTDF
- val run_BigWig_Conversion into g_77_run_BigWig
- val run_Picard_CollectMultipleMetrics into g_77_run_Picard
  set val(name), file("${newName}.flagstat.txt") into g_77_outputFileOut
 
 when:
