@@ -1,3 +1,6 @@
+This code is associated with the paper from Rinaldi et al., "An atlas of cell types in the mouse epididymis and vas deferens". eLife, 2020. http://doi.org/10.7554/eLife.55474
+
+
 # inDrop_Processing
 
 Initial processing and mapping indrop data
